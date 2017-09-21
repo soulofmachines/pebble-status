@@ -1,0 +1,40 @@
+{
+    "author": "atom8core@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.4"
+    },
+    "keywords": [],
+    "name": "status",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Status",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "WEATHER",
+            "OWM_API",
+            "OWM_CITY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bt.png",
+                    "name": "BT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "1e5a43e2-e32d-4df3-8f5a-a9286f1cd105",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
